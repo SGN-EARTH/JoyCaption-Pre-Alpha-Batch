@@ -1,5 +1,8 @@
 # JoyCaption-Pre-Alpha-Batch
 
+![2024-10-10_234205](https://github.com/user-attachments/assets/355ffefe-c574-44b4-8017-7432efebd5da)
+
+
 完全离线且本地的批量打标工具。原始项目：[Wi-zz/joy-caption-pre-alpha](https://huggingface.co/Wi-zz/joy-caption-pre-alpha) 。
 
 所有代码均是把原始项目代码丢给 ChatGPT 并疯狂扯皮而来。~~有问题可以问 AI ，AI 不能解答的我也无法解答，OK？~~
