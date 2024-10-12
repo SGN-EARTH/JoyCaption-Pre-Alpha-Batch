@@ -59,39 +59,6 @@
 │  run2.bat
 ```
 
-## 获取模型
-
-创建或打开 model 文件夹，使用 git clone 获取模型。
-
-- wpkklhc6：
-
-    ```
-    # 82.0 MB
-    
-    git clone https://huggingface.co/Wi-zz/joy-caption-pre-alpha
-    或者
-    git clone https://huggingface.co/spaces/fancyfeast/joy-caption-pre-alpha
-    ```
-
-    获取完成后进入 joy-caption-pre-alpha 文件夹把 wpkklhc6 目录移动到上一级目录。
-
-- siglip-so400m-patch14-384
-
-    ```
-    # 3.27 GB
-    git clone https://huggingface.co/google/siglip-so400m-patch14-384
-    ```
-
-- Meta-Llama-3.1-8B 或 Meta-Llama-3.1-8B-bnb-4bit
-
-    ```
-    # 5.31 GB
-    git clone https://huggingface.co/unsloth/Meta-Llama-3.1-8B-bnb-4bit
-    
-    # 14.9 GB
-    git clone https://huggingface.co/unsloth/Meta-Llama-3.1-8B
-    ```
-
 ## 安装
 
 `requirements.txt` 使用 `pip freeze >> requirements.txt` 生成，所有包依赖指定了版本。
@@ -129,6 +96,38 @@ python -m pip install -r requirements.txt
 ```
 
 这个方式适合把很多 python 项目打包成所谓的一键包，~~拒绝引流，拒绝会员，拒绝认爹，直接白嫖~~，带着包就能跑路。
+
+## 获取模型
+
+创建或打开 model 文件夹，使用 git clone 获取模型。
+
+- wpkklhc6：
+
+    ```
+    # 82.0 MB
+    git clone https://huggingface.co/Wi-zz/joy-caption-pre-alpha
+    或者
+    git clone https://huggingface.co/spaces/fancyfeast/joy-caption-pre-alpha
+    ```
+
+    获取完成后进入 joy-caption-pre-alpha 文件夹把 wpkklhc6 目录移动到上一级目录。
+
+- siglip-so400m-patch14-384
+
+    ```
+    # 3.27 GB
+    git clone https://huggingface.co/google/siglip-so400m-patch14-384
+    ```
+
+- Meta-Llama-3.1-8B 或 Meta-Llama-3.1-8B-bnb-4bit
+
+    ```
+    # 5.31 GB
+    git clone https://huggingface.co/unsloth/Meta-Llama-3.1-8B-bnb-4bit
+    
+    # 14.9 GB
+    git clone https://huggingface.co/unsloth/Meta-Llama-3.1-8B
+    ```
 
 ## 使用
 
