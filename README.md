@@ -61,8 +61,6 @@
 
 ## 安装
 
-`requirements.txt` 使用 `pip freeze >> requirements.txt` 生成，所有包依赖指定了版本。
-
 一、拉取本库
 
 ```
