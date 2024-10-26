@@ -95,6 +95,15 @@ python -m pip install -r requirements.txt
 
 这个方式适合把很多 python 项目打包成所谓的一键包，~~拒绝引流，拒绝会员，拒绝认爹，直接白嫖~~，带着包就能跑路。
 
+---
+单一文件或所有依赖引用处于同一级使用这个方法还好，如果依赖引用在不同的目录层级下还得特殊处理 pythonXXX._pth 文件。
+
+可以看看这位阿婆主的视频，使用 conda 打包一键包，更好更稳适用范围更广：
+
+刘悦的技术博客 - [【整合包？你也能做,打包AI项目,打包CUDA,打包CUDNN,打包TensorRT,打包FFMPEG,AI项目整合包制作】](https://www.bilibili.com/video/BV1jMyeYrErW)
+
+---
+
 ## 获取模型
 
 创建或打开 model 文件夹，使用 git clone 获取模型。
