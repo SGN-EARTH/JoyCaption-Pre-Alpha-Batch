@@ -125,6 +125,9 @@ python -m pip install -r requirements.txt
     
     # 14.9 GB
     git clone https://huggingface.co/unsloth/Meta-Llama-3.1-8B
+
+    # 14.9 GB
+    git clone https://huggingface.co/cognitivecomputations/dolphin-2.9.4-llama3.1-8b
     ```
 
 ## 使用
@@ -161,14 +164,24 @@ python -m pip install -r requirements.txt
 MODEL_PATH = Path("model/Meta-Llama-3.1-8B")
 或者
 MODEL_PATH = Path("model/Meta-Llama-3.1-8B-bnb-4bit")
+或者其他更多...
+MODEL_PATH = Path("model/dolphin-2.9.4-llama3.1-8b")
 ```
 
 图片描述相关参数
 
 ```
-MAX_NEW_TOKENS = 1024
+MAX_NEW_TOKENS = 1024  # 生成文本的最大令牌数
+
+# 是否使用采样方法生成文本。
+# True： 模型将随机选择下一个令牌；
+# False：使用贪婪解码（选择概率最高的令牌）。
 DO_SAMPLE = False
-TOP_K = 40
+
+TOP_K = 40  # 采样时考虑的最高概率的令牌数量
+
+# 控制输出的随机性。
+# 较低的温度会使输出更确定（更具一致性），较高的温度则会增加随机性和多样性。
 TEMPERATURE = 0.25
 ```
 
