@@ -1,7 +1,6 @@
 # pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
-# https://download.pytorch.org/whl/cu124/torch-2.5.0%2Bcu124-cp311-cp311-win_amd64.whl
 
-transformers
+transformers==4.43.3
 bitsandbytes
 accelerate
 numpy
