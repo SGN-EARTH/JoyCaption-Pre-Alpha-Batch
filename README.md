@@ -128,15 +128,14 @@ python -m pip install -r requirements.txt
 
 - Meta-Llama-3.1-8B 或 Meta-Llama-3.1-8B-bnb-4bit
 
+  Unsloth 更新模型后报错。或者想办法获取旧版本。自己折腾了。。。
+
     ```
     # 5.31 GB
     git clone https://huggingface.co/unsloth/Meta-Llama-3.1-8B-bnb-4bit
     
     # 14.9 GB
     git clone https://huggingface.co/unsloth/Meta-Llama-3.1-8B
-
-    # 14.9 GB
-    git clone https://huggingface.co/cognitivecomputations/dolphin-2.9.4-llama3.1-8b
     ```
 
 ## 使用
@@ -174,14 +173,12 @@ MODEL_PATH = Path("model/Meta-Llama-3.1-8B")
 或者
 MODEL_PATH = Path("model/Meta-Llama-3.1-8B-bnb-4bit")
 或者其他更多...
-MODEL_PATH = Path("model/dolphin-2.9.4-llama3.1-8b")
 ```
 
 图片描述相关参数
 
 ```
 # 生成文本的最大令牌数
-# 如遇到文本末尾被截取的情况，可调高此项数值。
 MAX_NEW_TOKENS = 1536
 
 # 是否使用采样方法生成文本。
