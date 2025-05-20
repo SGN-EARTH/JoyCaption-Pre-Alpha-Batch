@@ -2,6 +2,7 @@
 
 ![2024-10-10_234205](https://github.com/user-attachments/assets/355ffefe-c574-44b4-8017-7432efebd5da)
 
+[整合包](https://huggingface.co/earth-demon/my_7z_pack)
 
 完全离线且本地的批量打标工具。原始项目：[Wi-zz/joy-caption-pre-alpha](https://huggingface.co/Wi-zz/joy-caption-pre-alpha) 。
 
